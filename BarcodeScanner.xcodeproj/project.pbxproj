@@ -15,6 +15,8 @@
 		70B1F71E2501FB68003F1F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B1F71C2501FB68003F1F55 /* LaunchScreen.storyboard */; };
 		70B1F7292501FB68003F1F55 /* BarcodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1F7282501FB68003F1F55 /* BarcodeScannerTests.swift */; };
 		70B1F7342501FB68003F1F55 /* BarcodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1F7332501FB68003F1F55 /* BarcodeScannerUITests.swift */; };
+		70B1F74225024456003F1F55 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1F74125024456003F1F55 /* BarcodeScannerView.swift */; };
+		70B1F74425024494003F1F55 /* ProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1F74325024494003F1F55 /* ProductInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		70B1F72F2501FB68003F1F55 /* BarcodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1F7332501FB68003F1F55 /* BarcodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITests.swift; sourceTree = "<group>"; };
 		70B1F7352501FB68003F1F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B1F74125024456003F1F55 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		70B1F74325024494003F1F55 /* ProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				70B1F7112501FB66003F1F55 /* AppDelegate.swift */,
 				70B1F7132501FB66003F1F55 /* SceneDelegate.swift */,
 				70B1F7152501FB66003F1F55 /* ContentView.swift */,
+				70B1F74125024456003F1F55 /* BarcodeScannerView.swift */,
+				70B1F74325024494003F1F55 /* ProductInfoView.swift */,
 				70B1F7172501FB68003F1F55 /* Assets.xcassets */,
 				70B1F71C2501FB68003F1F55 /* LaunchScreen.storyboard */,
 				70B1F71F2501FB68003F1F55 /* Info.plist */,
@@ -267,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B1F74225024456003F1F55 /* BarcodeScannerView.swift in Sources */,
 				70B1F7122501FB66003F1F55 /* AppDelegate.swift in Sources */,
+				70B1F74425024494003F1F55 /* ProductInfoView.swift in Sources */,
 				70B1F7142501FB66003F1F55 /* SceneDelegate.swift in Sources */,
 				70B1F7162501FB66003F1F55 /* ContentView.swift in Sources */,
 			);
